@@ -1,0 +1,59 @@
+.normal-button {
+    display: inline-flex;
+    line-height: 2;
+    text-align: center;
+    padding: 1px 60px;
+    font-family: "IBM Plex Sans";
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 50, 0.2) 0 2px 2px 0;
+  }
+  
+  .rounded {
+    composes: normal-button;
+    border-radius: 50%;
+  }
+  
+  .danger {
+    composes: normal-button;
+    background-color: rgb(255, 8, 8);
+    border: 2px solid rgb(255, 8, 8);
+    color: white;
+  }
+  
+  .secondary {
+    composes: normal-button;
+    background-color: rgb(128, 118, 118);
+    border: 2px solid rgb(128, 118, 118);
+    color: white;
+  }
+  
+  .info {
+    composes: normal-button;
+    background-color: rgb(6, 218, 255);
+    border: 2px solid rgb(6, 218, 255);
+    color: white;
+  }
+  
+  .warning {
+    composes: normal-button;
+    background-color: rgb(248, 202, 49);
+    border: 2px solid rgb(248, 202, 49);
+    color: #ffffff;
+  }
+  
+  .success {
+    composes: normal-button;
+    background-color: rgba(30, 156, 41, 0.966);
+    border: 2px solid rgba(30, 156, 41, 0.966);
+    color: white;
+  }
+  
+  .primary {
+    composes: normal-button;
+    background-color: rgba(33, 124, 243, 0.849);
+    border: 2px solid rgba(33, 124, 243, 0.849);
+    color: #FFFFFF;
+  }

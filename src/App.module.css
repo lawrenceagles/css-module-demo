@@ -1,4 +1,8 @@
 
+.shadow {
+  box-shadow: rgba(50, 50, 50, 0.2) 0 5px 5px 0;
+}
+
 .app {
   display: flex;
   justify-content: space-around;

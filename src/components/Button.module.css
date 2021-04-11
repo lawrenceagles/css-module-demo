@@ -8,7 +8,7 @@
     font-weight: 500;
     border-radius: 4px;
     cursor: pointer;
-    box-shadow: rgba(50, 50, 50, 0.2) 0 2px 2px 0;
+    composes: shadow from "../App.module.css"
   }
   
   .rounded {

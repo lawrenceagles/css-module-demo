@@ -1,4 +1,5 @@
 .normal-button {
+    composes: shadow from "../App.module.css";
     display: inline-flex;
     line-height: 2;
     text-align: center;
@@ -8,7 +9,6 @@
     font-weight: 500;
     border-radius: 4px;
     cursor: pointer;
-    composes: shadow from "../App.module.css"
   }
   
   .rounded {
